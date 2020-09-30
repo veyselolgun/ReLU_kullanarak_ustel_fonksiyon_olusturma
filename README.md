@@ -1,1 +1,1 @@
-# ReLU-kullanarak-stel-fonksiyon-olu-turma
+# ReLU aktivasyon fonksiyonu kullanarak üstel fonksiyon oluşturma
