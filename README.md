@@ -1,0 +1,1 @@
+# ReLU-kullanarak-stel-fonksiyon-olu-turma
