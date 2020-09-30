@@ -1,1 +1,1 @@
-# ReLU fonksiyonu hakkında ve kodun açıklamalarıyla ilgili detaylar sonra eklenecektir
+ReLU fonksiyonu hakkında ve kodun açıklamalarıyla ilgili detaylar sonra eklenecektir
