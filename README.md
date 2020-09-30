@@ -1,1 +1,1 @@
-# ReLU aktivasyon fonksiyonu kullanarak üstel fonksiyon oluşturma
+# ReLU fonksiyonu hakkında ve kodun açıklamalarıyla ilgili detaylar sonra eklenecektir
