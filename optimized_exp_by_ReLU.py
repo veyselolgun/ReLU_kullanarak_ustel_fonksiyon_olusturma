@@ -14,7 +14,8 @@ def draw_graph(step,color):
         x.append(i)
 
     for i,j in enumerate(frange(0,10,step)):
-        sum=sum+max(0,x[i])+x[i]
+        #sum=sum+max(0,x[i])+x[i]
+        sum=sum+max(0,x[i])
         y.append(sum)
         
     print(x)
