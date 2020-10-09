@@ -10,11 +10,12 @@ def draw_graph(step,color):
     x,y = [],[]
     sum = 0
 
-    for i in frange(0,10,step):
-        x.append(i)
+    #for i in frange(0,10,step):
+    #    x.append(i)
 
     for i,j in enumerate(frange(0,10,step)):
         #sum=sum+max(0,x[i])+x[i]
+        x.append(i)
         sum=sum+max(0,x[i])
         y.append(sum)
         
