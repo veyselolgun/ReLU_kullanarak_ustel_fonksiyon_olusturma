@@ -6,6 +6,11 @@ def frange(start, stop, step):
     while i < stop:
         yield i
         i += step
+        
+
+def ReLU(arg):
+    return max (0,arg)        
+        
 x=[]
 y=[]
 
@@ -15,7 +20,7 @@ for i in frange(0,10,.01):
 sum=0
 for i,j in enumerate(frange(0,10,.01)):
     for a in range(i):
-        sum=sum+max(0,x[a])
+        sum=sum+ReLU(x[a])
     y.append(sum)
     sum=0
 
