@@ -7,7 +7,7 @@ def frange(start, stop, step):
         yield i
         i += step
 
-def draw_graph(step,color):
+def draw_exp_graph(step,color):
     x,y = [],[]
     sum=0
 
