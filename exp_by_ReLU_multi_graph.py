@@ -10,10 +10,9 @@ def frange(start, stop, step):
 def draw_graph(step,color):
     x,y = [],[]
     sum=0
-    for i in frange(0,10,step):
-        x.append(i)
 
     for i,j in enumerate(frange(0,10,step)):
+        x.append(i)
         for a in range(i):
             sum=sum+max(0,x[a])
         y.append(sum)
